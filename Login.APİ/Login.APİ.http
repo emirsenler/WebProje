@@ -1,0 +1,6 @@
+@Login.APİ_HostAddress = http://localhost:5185
+
+GET {{Login.APİ_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
