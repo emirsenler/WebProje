@@ -11,7 +11,7 @@ namespace Person.Services
         SqlConnection con;
         public PersonService()
         {
-            con = new SqlConnection("Data Source=185.57.65.131\\SQL2017,11863;Initial Catalog=S-EMIR;User ID=emir.senler;Password=Emir2320191043;");
+            con = new SqlConnection("11;");
         }
         public PersonModel.Return login(PersonModel.request personobj)
         {
